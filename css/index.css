@@ -280,7 +280,7 @@ body {
 .footer .icon-contact i:hover {
 	color: #646464;
 }
-.content {
+.content1 {
 	border-radius: 30px;
 	border: 2px solid black;
 	width: 50%;
@@ -289,6 +289,6 @@ body {
 	padding: 20px;
 	text-align: justify;
 }
-.content b {
+.content1 b {
 	text-align: center;
 }
