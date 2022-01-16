@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.login {
+	width: 70%;
+	height: 80vh;
+	border: 1px solid rgba(99, 98, 98, 0.651);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	display: flex;
+}
+.login .img {
+	flex: 1;
+	width: 100%;
+	height: 100%;
+}
+.login .img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px 0 0 20px;
+}
+.login .login-form {
+	flex: 1;
+}
+.input-form {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px;
+}
+.username,
+.password {
+	width: 60%;
+	height: 62px;
+	border: 2px solid rgba(131, 131, 131, 0.671);
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.input input {
+	width: 100%;
+	height: 30px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	padding: 0 5px;
+}
+.input:focus-within{
+	border: 3px solid rgb(255, 89, 83);
+}
+.btn-submit {
+	width: 60%;
+	height: 50px;
+	display: block;
+	border: 2px solid rgb(163, 163, 163);
+	border-radius: 10px;
+	margin: 10px auto;
+	font-size: 24px;
+	font-weight: 650;
+	text-align: center;
+	line-height: 50px;
+
+	background-color: rgb(255, 151, 119);
+	color: white;
+	opacity: 0.9;
+	transition: all ease-in 0.1s;
+	cursor: pointer;
+}
+.btn-submit:hover {
+	opacity: 1;
+	box-shadow: 0 0 6px rgb(153, 231, 255);
+	transform: translateY(-1.5px);
+	transition: all ease-in 0.1s;
+}
