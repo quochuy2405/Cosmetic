@@ -269,6 +269,9 @@ body {
 	justify-content: center;
 	gap: 20px;
 }
+.footer .icon-contact a{
+	color: rgb(238, 238, 238);
+}
 .footer .title {
 	font-size: 34px;
 	font-family: cursive;
