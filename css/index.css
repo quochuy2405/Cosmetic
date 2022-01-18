@@ -3,6 +3,12 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+a {
+	color: #000;
+}
+a:hover {
+	color: rgb(231, 98, 98);
+}
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -269,7 +275,7 @@ body {
 	justify-content: center;
 	gap: 20px;
 }
-.footer .icon-contact a{
+.footer .icon-contact a {
 	color: rgb(238, 238, 238);
 }
 .footer .title {
